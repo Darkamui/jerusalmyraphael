@@ -1,0 +1,93 @@
+.bgContainer {
+	box-shadow: 0px 10px 15px 1px lightblue;
+}
+
+nav {
+	max-width: 120rem;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 0;
+	.logoContainer {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		flex: 1;
+		p {
+			font-family: $font-cursive;
+			font-weight: 700;
+			font-size: 3.25rem;
+			color: $color-blue;
+			margin-left: 1rem;
+		}
+	}
+	.navLinksContainer {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.navLinksList {
+			display: flex;
+			gap: 2rem;
+			font-size: 2rem;
+			font-weight: 700;
+			align-items: center;
+			justify-content: center;
+			text-transform: uppercase;
+			.navLink:hover {
+				color: $color-blue;
+			}
+		}
+	}
+	.manuelContainer {
+		flex: 1;
+		display: flex;
+		justify-content: flex-end;
+		a {
+			padding: 1rem 2rem;
+			font-size: 2rem;
+			color: #fff;
+			background-color: $color-blue;
+			opacity: 0.8;
+			border-radius: 20px;
+			transition: ease-in 0.3s;
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+}
+@media screen and(max-width:1280px) {
+	nav .manuelContainer {
+		display: none;
+	}
+	nav {
+		padding: 2rem 2rem;
+	}
+}
+@media screen and(max-width:786px) {
+	nav {
+		flex-direction: column;
+		padding: 1rem;
+	}
+	nav .logoContainer p {
+		font-size: 2.5rem;
+	}
+	nav .navLinksContainer .navLinksList {
+		margin-top: 1rem;
+		font-size: 1.5rem;
+	}
+}
+@media screen and(max-width:400px) {
+	nav {
+		flex-direction: column;
+		padding: 1rem;
+	}
+	nav .logoContainer p {
+		font-size: 1.5rem;
+	}
+	nav .navLinksContainer .navLinksList {
+		margin-top: 1rem;
+		font-size: 1rem;
+	}
+}

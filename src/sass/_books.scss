@@ -1,0 +1,26 @@
+#books {
+	min-height: 90vh;
+	.booksContainer {
+		max-width: 120rem;
+		display: flex;
+		flex-wrap: wrap;
+		margin: auto;
+		gap: 2rem;
+		padding: 7rem 0;
+		justify-content: center;
+		.bookContainer {
+			img {
+				max-width: 25rem;
+				width: 100%;
+				height: 100%;
+				border-radius: 10px;
+				object-fit: cover;
+			}
+			opacity: 1;
+			cursor: pointer;
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+	}
+}
