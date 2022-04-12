@@ -3,6 +3,23 @@ import { v4 as uuidv4 } from "uuid";
 export const MovieState = () => {
 	return [
 		{
+			title: "In Absentia",
+			img: "https://firebasestorage.googleapis.com/v0/b/nagarot-c07a8.appspot.com/o/inabsentia.png?alt=media&token=7a746599-2a85-4015-b399-37ccfb83162a",
+			id: uuidv4(),
+			active: true,
+			url: "/inabsentia",
+			editeur: "Actes Sud",
+			date: "02 Mars 2022",
+			rakuten:
+				"https://fr.shopping.rakuten.com/offer/buy/7929397361/in-absentia-format-beau-livre.html",
+			cultura: "https://www.cultura.com/evacuation-9782330075729.html",
+			fnac: "https://livre.fnac.com/a16509498/Raphael-Jerusalmy-In-Absentia",
+			amazon:
+				"https://www.amazon.fr/Livres-Raphael-Jerusalmy/s?rh=n%3A301061%2Cp_27%3ARaphael+Jerusalmy",
+			description:
+				"Au Struthof (seul camp de concentration nazi ouvert sur le sol français), Pierre Delmain, écrivain et déporté politique, endosse un rôle déterminant : à mains nues, convoquant ses forces ultimes, il achève les déportés quand leur état les rend impropres aux « expériences scientifiques » menées sur place. Avec douceur, empathie, humanité. Il ne se le pardonne pas pour autant. Alors il s’échappe. Dans ses rêves. Littéralement. À Paris, Saül Berstein, collectionneur d’art, retarde dans les vapeurs de mescaline et la fréquentation de la beauté le moment de croire à la violence et à la laideur extrêmes de l’horreur qui le traque. Imprévisible et subtilement engagé, Raphaël Jerusalmy orchestre brève la rencontre cruciale de deux destins et accomplit un tour de force romanesque stupéfiant.",
+		},
+		{
 			title: "Evacuation",
 			img: "https://i.ibb.co/BPBwxG1/evac.jpg",
 			id: uuidv4(),

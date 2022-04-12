@@ -29,15 +29,30 @@ const Book = () => {
 							<p className="descText">{book.description}</p>
 							<div className="buyBtnContainer">
 								<p className="buyText">Commandez maintenant:</p>
-								<div className="buyBtn">
+								<a
+									href={book.amazon}
+									className="buyBtn"
+									target="_blank"
+									rel="noreferrer"
+								>
 									<img src={images.amazon} alt="" />
-								</div>
-								<div className="buyBtn">
+								</a>
+								<a
+									href={book.fnac}
+									className="buyBtn"
+									target="_blank"
+									rel="noreferrer"
+								>
 									<img src={images.fnac} alt="" />
-								</div>
-								<div className="buyBtn">
+								</a>
+								<a
+									href={book.rakuten}
+									className="buyBtn"
+									target="_blank"
+									rel="noreferrer"
+								>
 									<img src={images.rakuten} alt="" />
-								</div>
+								</a>
 							</div>
 							<div className="bgBlock"></div>
 						</div>
