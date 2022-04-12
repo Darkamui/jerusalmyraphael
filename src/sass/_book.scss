@@ -24,12 +24,22 @@
 			}
 		}
 		.rightBook {
+			display: flex;
+			flex-direction: column;
 			img {
 				max-width: 35rem;
 				max-height: 60rem;
 				width: 100%;
 				height: 100%;
 				border-radius: 5px;
+			}
+			.previewText {
+				font-size: 2rem;
+				text-align: center;
+				margin-top: 1rem;
+				font-style: italic;
+				text-transform: uppercase;
+				color: $color-blue;
 			}
 		}
 		.leftBook {

@@ -26,9 +26,9 @@ const Navbar = () => {
 							</Link>
 						</li>
 						<li>
-							<Link to="" className="navLink">
+							<a href="mailto:sjerusalmy@gmail.com" className="navLink">
 								Contact
-							</Link>
+							</a>
 						</li>
 					</ul>
 				</div>

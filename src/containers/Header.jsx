@@ -32,7 +32,7 @@ const Header = () => {
 						traque.
 					</p>
 					<div className="headerBtnContainer">
-						<Link to="/" className="primary-button">
+						<Link to="/books/inabsentia" className="primary-button">
 							en savoir plus
 						</Link>
 					</div>

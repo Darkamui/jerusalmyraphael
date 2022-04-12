@@ -10,6 +10,8 @@ export const MovieState = () => {
 			url: "/inabsentia",
 			editeur: "Actes Sud",
 			date: "02 Mars 2022",
+			preview:
+				"https://www.actes-sud.fr/sites/default/files/extraits/9782330164362_bat.pdf",
 			rakuten:
 				"https://fr.shopping.rakuten.com/offer/buy/7929397361/in-absentia-format-beau-livre.html",
 			cultura: "https://www.cultura.com/evacuation-9782330075729.html",

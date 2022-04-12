@@ -22,6 +22,16 @@ const Book = () => {
 					<div className="bookPageContainer">
 						<div className="rightBook">
 							<img src={book.img} alt="" />
+							{book.preview && (
+								<a
+									href={book.preview}
+									target="_blank"
+									rel="noreferrer"
+									className="previewText"
+								>
+									Lire un extrait
+								</a>
+							)}
 						</div>
 						<div className="leftBook">
 							<h2>{book.title}</h2>
