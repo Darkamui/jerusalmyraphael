@@ -27,12 +27,21 @@ header {
 		justify-content: space-between;
 		padding: 1rem 2rem;
 		flex: 1;
+		.headerBg {
+			padding: 2rem 3rem;
+			background-color: rgb(206, 213, 237);
+			border-radius: 10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
 		.headerTitle {
 			font-size: 2.25rem;
+			text-align: justify;
 		}
 		.headerText {
 			font-size: 2rem;
-			padding: 2rem;
+			padding: 1rem 2rem;
 		}
 		.headerBtnContainer {
 			padding: 4rem 2rem;

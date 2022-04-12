@@ -9,11 +9,14 @@ const Header = () => {
 					<img src={images.inAbsentia} alt="" />
 				</div>
 				<div className="rightHeader">
-					<h2 className="headerTitle">
-						Imprévisible et subtilement engagé, Raphaël Jerusalmy orchestre
-						brève la rencontre cruciale de deux destins et accomplit un tour de
-						force romanesque stupéfiant.
-					</h2>
+					<div className="headerBg">
+						<h2 className="headerTitle">
+							Imprévisible et subtilement engagé, Raphaël Jerusalmy orchestre
+							brève la rencontre cruciale de deux destins et accomplit un tour
+							de force romanesque stupéfiant.
+						</h2>
+					</div>
+
 					<p className="headerText">
 						Au Struthof (seul camp de concentration nazi ouvert sur le sol
 						français), Pierre Delmain, écrivain et déporté politique, endosse un
