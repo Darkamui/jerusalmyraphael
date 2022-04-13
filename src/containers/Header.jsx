@@ -6,7 +6,7 @@ const Header = () => {
 		<header>
 			<div className="headerContainer">
 				<div className="leftHeader">
-					<img src={images.inAbsentia} alt="" />
+					<img src={images.inabsentia} alt="" />
 				</div>
 				<div className="rightHeader">
 					<div className="headerBg">

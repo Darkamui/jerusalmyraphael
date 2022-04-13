@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { MovieState } from "../utils";
-import { LazyLoadImage } from "react-lazy-load-image-component";
-const Books = () => {
+import {
+	LazyLoadImage,
+	LazyLoadComponent,
+	trackWindowScroll,
+} from "react-lazy-load-image-component";
+const Books = ({ scrollPosition }) => {
 	const [books, setBooks] = useState(MovieState);
 	useEffect(() => {
 		setBooks(MovieState);
@@ -12,15 +16,22 @@ const Books = () => {
 		<main id="books">
 			<div className="booksContainer">
 				{books.map((book) => (
-					<div className="bookContainer" key={book.title}>
-						<Link to={`/books${book.url}`} state={{ book: book }}>
-							<LazyLoadImage alt={book.title} src={book.img} />
-						</Link>
-					</div>
+					<LazyLoadComponent key={book.title} scrollPosition={scrollPosition}>
+						<div className="bookContainer">
+							<Link to={`/books${book.url}`} state={{ book: book }}>
+								<LazyLoadImage
+									alt={book.title}
+									src={book.img}
+									delayMethod="debounce"
+									scrollPosition={scrollPosition}
+								/>
+							</Link>
+						</div>
+					</LazyLoadComponent>
 				))}
 			</div>
 		</main>
 	);
 };
 
-export default Books;
+export default trackWindowScroll(Books);

@@ -1,10 +1,11 @@
 import { v4 as uuidv4 } from "uuid";
+import { images } from "./assets";
 
 export const MovieState = () => {
 	return [
 		{
 			title: "In Absentia",
-			img: "https://firebasestorage.googleapis.com/v0/b/nagarot-c07a8.appspot.com/o/inabsentia.png?alt=media&token=7a746599-2a85-4015-b399-37ccfb83162a",
+			img: images.inabsentia,
 			id: uuidv4(),
 			active: true,
 			url: "/inabsentia",
@@ -23,7 +24,7 @@ export const MovieState = () => {
 		},
 		{
 			title: "Evacuation",
-			img: "https://firebasestorage.googleapis.com/v0/b/nagarot-c07a8.appspot.com/o/evac.jpg?alt=media&token=6dd61238-2e5b-4eb2-9462-721b3348b809",
+			img: images.evac,
 			id: uuidv4(),
 			active: true,
 			url: "/evacuation",
@@ -40,7 +41,7 @@ export const MovieState = () => {
 		},
 		{
 			title: "La confrérie des chasseurs de livres",
-			img: "https://firebasestorage.googleapis.com/v0/b/nagarot-c07a8.appspot.com/o/confrerie.jpg?alt=media&token=e7174a04-d173-44bf-897c-7272e1aa70c8",
+			img: images.confrerie,
 			id: uuidv4(),
 			active: false,
 			url: "/confrerie",
@@ -59,7 +60,7 @@ export const MovieState = () => {
 		},
 		{
 			title: "Diderot - Non à l'ignorance",
-			img: "https://firebasestorage.googleapis.com/v0/b/nagarot-c07a8.appspot.com/o/diderot.jpg?alt=media&token=bc419d3c-6be9-4aa1-9556-7a1c2abda54e",
+			img: images.diderot,
 			id: uuidv4(),
 			active: false,
 			url: "/diderot",
@@ -76,7 +77,7 @@ export const MovieState = () => {
 		},
 		{
 			title: "Sauver Mozart",
-			img: "https://firebasestorage.googleapis.com/v0/b/nagarot-c07a8.appspot.com/o/mozart.webp?alt=media&token=5669fe69-cfa2-4286-8353-d614dd67eba6",
+			img: images.mozart,
 			id: uuidv4(),
 			active: false,
 			url: "/mozart",
@@ -93,7 +94,7 @@ export const MovieState = () => {
 		},
 		{
 			title: "Les Obus Jouaient à Pigeons Vole",
-			img: "https://firebasestorage.googleapis.com/v0/b/nagarot-c07a8.appspot.com/o/obus.jpg?alt=media&token=a01cd0dc-1d57-470e-b157-8c6784bab36c",
+			img: images.obus,
 			id: uuidv4(),
 			active: false,
 			url: "/obus",
@@ -111,7 +112,7 @@ export const MovieState = () => {
 		},
 		{
 			title: "La rose de Saragosse",
-			img: "https://i.ibb.co/J5w2R3X/rose.jpg",
+			img: images.rose,
 			id: uuidv4(),
 			active: false,
 			url: "/rose",
@@ -129,7 +130,7 @@ export const MovieState = () => {
 		},
 		{
 			title: "Shalom Tsahal",
-			img: "https://firebasestorage.googleapis.com/v0/b/nagarot-c07a8.appspot.com/o/tsahal.jpg?alt=media&token=b81858c8-970c-49d2-9c0f-7b497d0f7c7d",
+			img: images.tsahal,
 			id: uuidv4(),
 			active: true,
 			url: "/tsahal",
@@ -146,7 +147,7 @@ export const MovieState = () => {
 		},
 		{
 			title: "Manuel bleu contre l'antisémtisme et la désinformation",
-			img: "https://firebasestorage.googleapis.com/v0/b/nagarot-c07a8.appspot.com/o/bleu.png?alt=media&token=ffabfeba-8aa1-4aa8-8408-283bc592b512",
+			img: images.bleu,
 			id: uuidv4(),
 			active: false,
 			url: "/bleu",
@@ -162,7 +163,7 @@ export const MovieState = () => {
 		},
 		{
 			title: "Des Sex Pistols à l'Intifada",
-			img: "https://i.ibb.co/m5bfXhj/sex-Pistols.jpg",
+			img: images.sexPistols,
 			id: uuidv4(),
 			active: false,
 			url: "/sexPistols",
@@ -179,7 +180,7 @@ export const MovieState = () => {
 		},
 		{
 			title: "Bibliodyssées: 50 histoires de livres sauvés",
-			img: "https://firebasestorage.googleapis.com/v0/b/nagarot-c07a8.appspot.com/o/biblio.jpg?alt=media&token=d922bdaa-4e24-4467-9793-529b06454c62",
+			img: images.biblio,
 			id: uuidv4(),
 			active: false,
 			url: "/biblio",
