@@ -7,7 +7,7 @@ const Header = () => {
 			<div className="watermark"></div>
 			<div className="headerContainer">
 				<div className="leftHeader">
-					<img src={images.inabsentia} alt="" />
+					<img src={images.inabsentia3d} alt="" />
 				</div>
 				<div className="rightHeader">
 					<div className="headerBg">

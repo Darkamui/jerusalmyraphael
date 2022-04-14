@@ -5,7 +5,7 @@ export const MovieState = () => {
 	return [
 		{
 			title: "In Absentia",
-			img: images.inabsentia,
+			img: images.inabsentia3d,
 			id: uuidv4(),
 			active: true,
 			url: "/inabsentia",
@@ -180,7 +180,7 @@ export const MovieState = () => {
 		},
 		{
 			title: "Bibliodyssées: 50 histoires de livres sauvés",
-			img: images.biblio,
+			img: images.biblio3d,
 			id: uuidv4(),
 			active: false,
 			url: "/biblio",

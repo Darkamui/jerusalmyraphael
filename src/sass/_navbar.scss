@@ -1,8 +1,7 @@
 .bgContainer {
 	background-color: $color-offwhite;
-	box-shadow: 0px 10px 15px 25px lightblue;
+	border-bottom: 1px dashed blue;
 	padding: 2rem;
-	// margin-bottom: 0.5rem;
 }
 
 nav {
@@ -31,7 +30,7 @@ nav {
 		justify-content: center;
 		.navLinksList {
 			display: flex;
-			gap: 2rem;
+			gap: 3rem;
 			font-size: 2rem;
 			font-weight: 700;
 			align-items: center;

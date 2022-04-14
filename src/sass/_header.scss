@@ -10,11 +10,10 @@ header {
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
 	gap: 4rem;
 	margin: 5rem auto 2rem auto;
 	.leftHeader {
-		max-width: 35rem;
-		width: 100%;
 		img {
 			max-width: 35rem;
 			width: 100%;
@@ -24,7 +23,7 @@ header {
 	.rightHeader {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		// align-items: center;
 		justify-content: space-between;
 		padding: 1rem 2rem;
 		flex: 1;
@@ -37,12 +36,13 @@ header {
 			align-items: center;
 		}
 		.headerTitle {
-			font-size: 2.25rem;
+			font-size: 2rem;
 			text-align: justify;
 		}
 		.headerText {
 			font-size: 2rem;
 			padding: 1rem 2rem;
+			text-align: justify;
 		}
 		.headerBtnContainer {
 			padding: 4rem 2rem;
