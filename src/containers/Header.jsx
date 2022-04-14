@@ -4,6 +4,7 @@ import { images } from "../assets";
 const Header = () => {
 	return (
 		<header>
+			<div className="watermark"></div>
 			<div className="headerContainer">
 				<div className="leftHeader">
 					<img src={images.inabsentia} alt="" />
