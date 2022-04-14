@@ -15,6 +15,7 @@ import rose from "../assets/rose.jpg";
 import tsahal from "../assets/tsahal.jpg";
 import bleu from "../assets/bleu.png";
 import biblio from "../assets/biblio.jpg";
+import bgTest from "../assets/Frame1.png";
 export default {
 	sexPistols,
 	raphy,
@@ -33,4 +34,5 @@ export default {
 	tsahal,
 	bleu,
 	biblio,
+	bgTest,
 };

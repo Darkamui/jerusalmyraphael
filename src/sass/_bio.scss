@@ -1,12 +1,15 @@
 #bio {
-	min-height: 80vh;
+	min-height: 90vh;
 	display: flex;
 	justify-content: center;
+
+	background-color: $color-offwhite;
 	.bioContainer {
 		max-width: 120rem;
 		display: flex;
 		align-items: center;
 		gap: 3rem;
+		z-index: 99;
 	}
 	p {
 		font-size: 1.75rem;
@@ -18,6 +21,7 @@
 		img {
 			width: 100%;
 			border-radius: 50px;
+			z-index: 99;
 		}
 	}
 	@media screen and(max-width:1280px) {

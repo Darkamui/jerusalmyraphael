@@ -23,7 +23,7 @@ const About = () => {
 							Il est également expert sur la chaîne de télévision I24news.
 						</p>
 						<div className="aboutBtnContainer">
-							<Link to="/" className="primary-button">
+							<Link to="/biographie" className="primary-button">
 								consulter la bio
 							</Link>
 						</div>

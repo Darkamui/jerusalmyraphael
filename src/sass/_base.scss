@@ -1,7 +1,7 @@
 // COLOR VARIABLES
 $color-white: #fff;
 $color-offwhite: #f7f7f7;
-$color-blue: #2a4bc4;
+$color-blue: rgb(42, 75, 196);
 // FONT VARIABLES
 $font-primary: "Lato", sans-serif;
 $font-display: "Josefin Sans", sans-serif;
@@ -22,7 +22,19 @@ html {
 
 body {
 	font-family: $font-primary;
-	background-color: $color-offwhite;
+	background-color: rgba(42, 75, 196, 0.8);
+	clip-path: polygon(
+		0 0,
+		100% 0,
+		100% 35%,
+		100% 70%,
+		100% 100%,
+		50% 100%,
+		0 100%,
+		5% 76%,
+		3% 51%,
+		15% 13%
+	);
 	font-weight: 400;
 	line-height: 1.6;
 }
