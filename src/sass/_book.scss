@@ -10,13 +10,15 @@
 		display: flex;
 		gap: 3rem;
 		position: relative;
+		z-index: 2;
+
 		.bgBlock {
 			position: absolute;
 			max-height: 10rem;
 			height: 100%;
 			background-color: $color-blue;
 			opacity: 0.2;
-			z-index: -1;
+			z-index: 1;
 			width: 100%;
 			top: -10px;
 			left: -50px;
@@ -28,6 +30,8 @@
 		.rightBook {
 			display: flex;
 			flex-direction: column;
+			z-index: 2;
+
 			img {
 				max-width: 35rem;
 				max-height: 60rem;

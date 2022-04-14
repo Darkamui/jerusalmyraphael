@@ -33,10 +33,14 @@ body {
 		0 100%,
 		5% 76%,
 		3% 51%,
-		15% 13%
+		13% 7%
 	);
 	font-weight: 400;
 	line-height: 1.6;
+	@media screen and(max-width:1200px) {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+		background-color: $color-offwhite;
+	}
 }
 
 a {
